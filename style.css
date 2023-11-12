@@ -1,0 +1,23 @@
+/* O estilo será aplicado em telas com a resolução a partir do valor mínimo definido */
+/* Em uma tela com a resolução de 319px por exemplo, o estilo não se aplica */
+/* Ou seja, é o valor mínimo que uma tela deve ter de resolução para que se aplique o estilo */
+/* a partir de 320px */
+
+@media screen and (min-width: 320px) {
+  h2 {
+    color: blue;
+  }
+}
+
+/* O estilo será aplicado em telas com a resolução até o valor máximo definido */
+/* Em uma tela com a resolução de 426px por exemplo, o estilo não se aplica */
+/* Ou seja, é o valor máximo que uma tela deve ter de resolução para que se aplique o estilo */
+/* de 0 a 425px */
+
+@media screen and (max-width: 425px) { 
+  h2 {
+    color: brown;
+  }
+}
+
+/* Utilizando os exemplos acima temos que qualquer resolução inferior a 425px terá a cor "brown" definida para o "h2", pois é o máximo defino para esse estilo. Se aumentarmos um pixel de resolução, o estilo de cor do "h2" muda para "blue", pois o mínimo definido para esse estilo é 320px*/
