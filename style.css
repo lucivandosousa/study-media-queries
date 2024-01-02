@@ -21,3 +21,5 @@
 }
 
 /* Utilizando os exemplos acima temos que qualquer resolução inferior a 425px terá a cor "brown" definida para o "h2", pois é o máximo defino para esse estilo. Se aumentarmos um pixel de resolução, o estilo de cor do "h2" muda para "blue", pois o mínimo definido para esse estilo é 320px*/
+
+/* O max é ideal para quando temos um layout Desktop pronto e queremos adaptá-lo para dispositivos menores - vamos então definindo novas regras que se aplicam só aos dispositivos de no máximo certo tamanho. Já o min pode ser útil quando criamos um site só mobile ou começamos pelo mobile - nesse caso, é mais fácil ter um layout base e ir customizando para dispositivos maiores, com no mínimo certo tamanho. */
